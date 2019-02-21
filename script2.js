@@ -6,7 +6,6 @@ function factorielle(){
         result = result * i
         i += 1
     }
-    console.log("script2")
     console.log(result)
 }
 

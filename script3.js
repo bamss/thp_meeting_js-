@@ -3,7 +3,7 @@ function mario(){
     i = 0
     while (i < nb){
         i += 1
-        console.log("#".repeat(i) + "")
+        console.log(" ".repeat(nb - i) + "#".repeat(i) )
     }
 }
 
